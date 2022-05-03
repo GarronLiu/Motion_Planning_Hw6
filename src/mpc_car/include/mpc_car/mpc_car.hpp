@@ -76,6 +76,7 @@ class MpcCar {
                      const double& v,
                      const double& delta) {
     // x_{k+1} = Ad * x_{k} + Bd * u_k + gd
+    // x
     // TODO: set values to Ad_, Bd_, gd_
     // ...
     //由于是在每一点处线性化展开，因此每次都要重新线性化计算
@@ -238,7 +239,7 @@ class MpcCar {
       predictInput_[i].setZero();
     }
     for (int i = 0; i < history_length_; ++i) {
-      historyInput_.emplace_back(0, 0);
+      historyInput_.emplace_back(0, 0);//补充t时刻前tau时间内的控制输入
     }
   }
 
