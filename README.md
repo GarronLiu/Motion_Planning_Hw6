@@ -20,33 +20,23 @@ roslaunch mpc_car simulation.launch
 
 ## Theory
 
-
 ### Linearize  Nonlinear Model
 
-    <p align="center">
-    <img src="equation1.png" width="400"/>
-    </p>
+<p align="center">
+  <img src="equation1.png" width="800"/>
+</p>
 
 ### Constrained Quadratic Problem
  
 <p align="center">
-   <img src="equation2.png" width="400"/>
+   <img src="equation2.png" width="800"/>
 </p>
 
 ### Delay Compensation
 
-    <p align="center">
-    <img src="equation3.png" width="400"/>
-    </p>
-
-
-
-# Linearization of Nonlinear Model
-  
-
-# Constrained Quadratic Problem
-
-
+<p align="center">
+  <img src="equation3.png" width="800"/>
+ </p>
 
 ## RESULT
 - 第一条轨迹结果（考虑输入延迟生效）如下：
