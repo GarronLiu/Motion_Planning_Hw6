@@ -20,7 +20,6 @@ roslaunch mpc_car simulation.launch
 
 ## Theory
 
-<<<<<<< HEAD
 
 ### Linearize  Nonlinear Model
 
@@ -41,7 +40,6 @@ roslaunch mpc_car simulation.launch
     </p>
 
 
-=======
 
 # Linearization of Nonlinear Model
   
