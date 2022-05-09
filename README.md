@@ -29,9 +29,9 @@ roslaunch mpc_car simulation.launch
 
 ### Constrained Quadratic Problem
  
-    <p align="center">
-    <img src="equation2.png" width="400"/>
-    </p>
+<p align="center">
+   <img src="equation2.png" width="400"/>
+</p>
 
 ### Delay Compensation
 
